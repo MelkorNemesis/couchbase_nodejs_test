@@ -1,0 +1,8 @@
+version: '3'
+services:
+  couchbase:
+    container_name: couchbase
+    image: couchbase:4.1.0
+    ports:
+    - 8091-8096:8091-8096
+    - 18091-18096:18091-18096
